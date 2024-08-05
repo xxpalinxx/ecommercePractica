@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1 class="">Nuestros Productos</h1>
+        <div id="filtros">
+            <input id="inputFiltros" class="formulario__campo" type="text" placeholder="Buscar">
+            <button id="btnBuscar" class="formulario__submit">Buscar</button>
+            <button id="todos" class="formulario__submit" value="">Reset</button>
+        </div>
+        <div id="grid" class="grid">
+            
+            
+        </div>
+        <div id="contenedorCarrito" class="navegacion">
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
